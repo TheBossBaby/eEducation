@@ -2,7 +2,7 @@
   "name": "Agora-Edu-Web",
   "version": "6.0.0",
   "private": true,
-  "homepage": "http://167.71.231.32/",
+  "homepage": "https://dreal.in",
   "main": "./src/index.tsx",
   "agora_electron": {
     "platform": "darwin",
