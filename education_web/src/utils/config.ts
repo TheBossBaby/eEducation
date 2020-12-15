@@ -5,6 +5,7 @@ const genToken = (): string => {
   return window.btoa(`${process.env.REACT_APP_AGORA_CUSTOMER_ID}:${process.env.REACT_APP_AGORA_CUSTOMER_CERTIFICATE}`)
 }
 export const AUTHORIZATION: string = genToken();
+console.log(genToken());
 export const RoomKeyIdentifier = 'agora_meeting_room';
 export const GlobalKeyIdentifier = 'global_identifier';
 export const UUIDKeyIdentifier = 'agora_meeting_uuid';

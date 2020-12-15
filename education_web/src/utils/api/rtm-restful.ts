@@ -1,3 +1,4 @@
+import { Console } from 'console';
 import {get, isEmpty} from 'lodash';
 import { AgoraFetch } from '../fetch';
 
@@ -125,3 +126,4 @@ export class RTMRestful {
 
 //@ts-ignore
 window.RTMRestful = new RTMRestful(process.env.REACT_APP_AGORA_CUSTOMER_ID as string, process.env.REACT_APP_AGORA_CUSTOMER_CERTIFICATE as string);
+console.log("Window.RTMRestful : " + new RTMRestful(process.env.REACT_APP_AGORA_CUSTOMER_ID as string, process.env.REACT_APP_AGORA_CUSTOMER_CERTIFICATE as string));
